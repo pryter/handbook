@@ -43,7 +43,7 @@ const Page = () => {
             clipPath: "inset(0% 0 0% 0)"
           }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="mr-16 border-r-2 border-gray-800"
+          className="mr-16 hidden border-r-2 border-gray-800 md:block"
         />
         <motion.div
           initial={{ clipPath: "inset(0 100% 0 0)" }}
@@ -51,7 +51,7 @@ const Page = () => {
           transition={{ duration: 1.5, delay: 1.6 }}
           className="text-sm md:text-lg"
         >
-          <p className="mt-14 max-w-[480px] text-right tracking-wider md:mt-4 md:max-w-[900px] md:text-left">
+          <p className="mt-14 max-w-[320px] text-right tracking-wider md:mt-4 md:max-w-[900px] md:text-left">
             This handbook contains several concepts about web development & web
             design; feels free to discover.{" "}
             <span>
