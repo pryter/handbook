@@ -1,8 +1,12 @@
 import { motion } from "framer-motion"
+import Head from "next/head"
 
 const Page = () => {
   return (
-    <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col p-8 text-gray-900 ">
+    <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col p-8 text-gray-900">
+      <Head>
+        <title>Handbook by TUCMC</title>
+      </Head>
       <nav className="relative flex justify-end tracking-wider md:justify-center">
         <div className="flex w-[180px] shrink-0 items-center space-x-2">
           <h1 className="text-lg">Handbook</h1>
